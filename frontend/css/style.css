@@ -1,0 +1,82 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #2d3c49;
+}
+
+.header-logo{
+    margin-top: 30px;
+}
+
+.icon-logo{
+    color: #02b3e4;
+    font-size: 80px;
+}
+
+.banner{
+    width: 100vw;
+}
+.text-super{
+    font-size: 60px;
+}
+
+.text-gray{
+    color: #7d97ad;
+}
+
+.text-thin{
+    font-weight: 100;
+}
+
+.text-light{
+    font-weight: 300;
+}
+
+.header-separetor{
+    border-width: 4px;
+    border-color: #2d3c49;
+}
+
+.fa {
+    padding: 2px;
+    font-size: 22px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 30%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    text-decoration: none;
+}
+
+.fa-github {
+    background: #000;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-bitbucket {
+    background: #0057D8;
+    color: white;
+}
+
+.truncate {
+    max-height: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@media screen and (max-width: 767px) {
+    .content{
+        margin: auto;
+        width: 80%;
+    }
+}
